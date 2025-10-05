@@ -1,7 +1,15 @@
-ipywidgets==8.1.2
-matplotlib==3.8.4
-pandas==2.2.2
-torch==2.3.0
-torchvision==0.18.0
-tqdm==4.66.4
-aiohttp
+# Core dependencies untuk async GraphQL data fetching
+aiohttp>=3.9.0
+pandas>=2.2.0
+
+# Jupyter notebook support
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# Optional: Data analysis & visualization
+matplotlib>=3.8.0
+tqdm>=4.66.0
+
+# Optional: Machine Learning (uncomment if needed)
+# torch>=2.3.0
+# torchvision>=0.18.0
